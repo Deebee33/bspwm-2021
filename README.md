@@ -129,6 +129,7 @@ Spotify:
 
  sudo make install
  ```
+ Usa Windows + k para lanzar Spotify sin anuncios.
  
 Finally:
  
