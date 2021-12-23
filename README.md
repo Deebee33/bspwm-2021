@@ -12,40 +12,26 @@
 ```sh
    sudo apt update && sudo apt full-upgrade -y
 
-   sudo apt install bspwm sxhkd polybar geany pcmanfm neovim ranger nitrogen neofetch gtk3-nocsd picom rofi gzip lzop fzf tty-clock dunst zathura -y
-
-   sudo apt install python3 python3-pip kitty -y
+   sudo apt install bspwm sxhkd polybar geany pcmanfm neovim ranger nitrogen neofetch gtk3-nocsd picom rofi gzip lzop fzf tty-clock dunst zathura python3 python3-pip kitty -y
 ```  
-## 2. Instalar y entrar a BSPWM
-
+## 2. Install
+ 
 ```sh
   
-   cd ~; rm -rf .config .local
+   cd ~; rm -rf .config .local; git clone https://github.com/tony23x/bspwm-2021.git; cd bspwm-2021; mv local .local; mv config .config; cp -rf .* $HOME; cd $HOME; chmod -R +x .config .local; chmod +x .Xresources
 
-   git clone https://github.com/tony23x/bspwm-2021.git
-
-   cd bspwm-2021; mv local .local; mv config .config
-
-   cp -rf .* $HOME; cd $HOME
-
-   chmod -R +x .config .local
-
-   chmod +x .Xresources
-
+```
+ 
+Fuentes:
+ 
+```sh
+ 
    sudo cp bspwm-2021/Hack.zip /usr/local/share/fonts && cd /usr/local/share/fonts && sudo unzip Hack.zip && sudo rm -rf Hack.zip
+ 
 ```  
   
 * _Sal de la session y da click en la parte superior derecha en el circulo, luego click en bspwm e ingresa tus credenciales_
 
-## Config
-  
-```sh
-   nano .config/polybar/config
-
-   nano .config/sxhkd/sxhkdrc
-
-   .config/dunst/iconpng/kali.png
-```
   
 ## Notes
 * _El archivo Hack.zip corresponde a la fuente Hack Nerd Font, de la siguiente web page:_
