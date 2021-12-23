@@ -1,5 +1,5 @@
 ![screen](https://user-images.githubusercontent.com/55555800/147170398-cb82dd1e-1650-4db6-85d4-e13c838a3ddb.png)
-<h5 align="center"> Configuración de: https://github.com/darch7 y notas de s4vitar ~> https://pastebin.com/EEX1Dsuq </h5>
+<h5 align="center"> Configuración de: https://github.com/darch7 y notas del tito s4vitar ~> https://pastebin.com/EEX1Dsuq </h5>
 <hr>
   
 ### Setup
