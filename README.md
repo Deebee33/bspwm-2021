@@ -12,7 +12,7 @@
 ```sh
    sudo apt update && sudo apt full-upgrade -y
 
-   sudo apt install bspwm sxhkd polybar geany pcmanfm neovim ranger nitrogen neofetch gtk3-nocsd picom rofi gzip lzop fzf tty-clock dunst zathura python3 python3-pip kitty build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev -y
+   sudo apt install bspwm sxhkd geany pcmanfm neovim ranger nitrogen neofetch gtk3-nocsd picom rofi gzip lzop fzf tty-clock dunst zathura python3 python3-pip kitty build-essential git vim xcb libxcb-util0-dev libxcb-ewmh-dev libxcb-randr0-dev libxcb-icccm4-dev libxcb-keysyms1-dev libxcb-xinerama0-dev libasound2-dev libxcb-xtest0-dev libxcb-shape0-dev -y
 ```  
 ## 2. Install
 ```sh
