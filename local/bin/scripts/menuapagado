@@ -1,0 +1,22 @@
+#!/bin/sh
+
+reb="reboot"
+shut="poweroff"
+logout="slimlock"
+#killall panel;bspc quit
+
+cmds="\
+   Bloquear	${logout}
+   Reiniciar PC	${reb}
+   Apagar PC	${shut}"
+
+choice="$(echo "$cmds" | cut -d'	' -f 1 | rofi -p " Menu de apagado" -dmenu -lines 3 -width 17)" || exit 1
+
+action=$(echo "$cmds" | grep "^$choice	" | cut -d '	' -f2)
+
+IFS=';' read -ra com <<< "$action"
+
+for i in "${com[@]}"
+do
+$i
+done
