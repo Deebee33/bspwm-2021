@@ -45,6 +45,8 @@ Sxhkd:
 Polybar:
  
 ```sh
+ git clone https://github.com/VaughnValle/blue-sky.git ~/Descargas/blue-sky
+
  git clone --recursive https://github.com/polybar/polybar ~/Descargas/polybar
  
  mkdir ~/Descargas/polybar/build
