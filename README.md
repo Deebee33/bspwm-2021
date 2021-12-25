@@ -83,7 +83,7 @@ Slimlock:
  
  git clone https://github.com/joelburget/slimlock.git ~/Descargas/slimlock
  
- cd slimlock/
+ cd ~/Descargas/slimlock/
  
  sudo make
  
