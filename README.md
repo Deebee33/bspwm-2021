@@ -72,8 +72,6 @@ Picom:
  ninja -C build
 
  sudo ninja -C build install
- 
- cp ~/Descargas/blue-sky/picom.conf .
  ```
  
 Slimlock:
