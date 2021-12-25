@@ -81,7 +81,7 @@ Slimlock:
 ```sh
  sudo apt install slim libpam0g-dev libxrandr-dev libfreetype6-dev libimlib2-dev libxft-dev -y
  
- git clone https://github.com/joelburget/slimlock.git
+ git clone https://github.com/joelburget/slimlock.git ~/Descargas/slimlock
  
  cd slimlock/
  
