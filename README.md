@@ -104,8 +104,6 @@ Slimlock:
 Fuentes de agua:
  
 ```sh
- git clone https://github.com/VaughnValle/blue-sky.git ~/Descargas/blue-sky
- 
  sudo cp ~/Descargas/blue-sky/polybar/fonts/* /usr/share/fonts/truetype/
  
  fc-cache -v
@@ -114,9 +112,11 @@ Fuentes de agua:
 ZSH:
  
 ```sh
- usermod --shell /usr/bin/zsh tuUsuario
+ user=$(whoami)
  
- usermod --shell /usr/bin/zsh root
+ sudo usermod --shell /usr/bin/zsh $user
+ 
+ sudo usermod --shell /usr/bin/zsh root
 ```
 
 Firefox:
