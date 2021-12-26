@@ -72,6 +72,9 @@ Picom:
  cd ~/Descargas/picom/
  
  git submodule update --init --recursive
+ 
+ sudo apt install libev-dev libx11-xcb-dev libxcb-damage0 libxcb-damage0-dev libxcb-sync-dev libxcb-present-dev libxcb-glx0-dev uthash-dev libconfig-dev libgl-dev libdbus-1-dev -y
+
 
  meson --buildtype=release . build
 
