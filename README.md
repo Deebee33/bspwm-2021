@@ -65,7 +65,6 @@ Picom:
  
  sudo apt install libev-dev libx11-xcb-dev libxcb-damage0 libxcb-damage0-dev libxcb-sync-dev libxcb-present-dev libxcb-glx0-dev uthash-dev libconfig-dev libgl-dev libdbus-1-dev -y
 
-
  meson --buildtype=release . build
 
  ninja -C build
@@ -121,6 +120,8 @@ Spotify:
 
 ```sh
  git clone https://github.com/abba23/spotify-adblock.git ~/Descargas/spotify-adblock 
+
+ cd ~/Descargas/spotify-adblock/
 
  make
 
