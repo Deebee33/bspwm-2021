@@ -13,7 +13,7 @@
  
  mv ~/Descargas/bspwm-2021/config ~/.config
  
- cp -rf ~/Descargas/bspwm-2021/.* ~
+ cp -rf ~/Descargas/bspwm-2021/.Xresources ~
  
  chmod -R +x ~/.config ~/.local ~/.Xresources
 ```
