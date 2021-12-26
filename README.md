@@ -3,20 +3,6 @@
 <hr>
   
 ### Setup
-
-```sh
- rm -rf ~/.config ~/.local
- 
- git clone https://github.com/tony23x/bspwm-2021.git ~/Descargas/bspwm-2021
-  
- mv ~/Descargas/bspwm-2021/local ~/.local
- 
- mv ~/Descargas/bspwm-2021/config ~/.config
- 
- cp -rf ~/Descargas/bspwm-2021/.Xresources ~
- 
- chmod -R +x ~/.config ~/.local ~/.Xresources
-```
  
 Bspwm:
 
@@ -137,7 +123,23 @@ Spotify:
  sudo make install
  ```
  Usa Windows + k para lanzar Spotify sin anuncios.
+
+Now: 
+
+```sh
+ rm -rf ~/.config ~/.local
  
+ git clone https://github.com/tony23x/bspwm-2021.git ~/Descargas/bspwm-2021
+  
+ mv ~/Descargas/bspwm-2021/local ~/.local
+ 
+ mv ~/Descargas/bspwm-2021/config ~/.config
+ 
+ cp -rf ~/Descargas/bspwm-2021/.Xresources ~
+ 
+ chmod -R +x ~/.config ~/.local ~/.Xresources
+```
+
 Finally:
  
 * Sal de la session y da click en la parte superior derecha en el circulo, luego click en bspwm e ingresa tus credenciales
@@ -170,4 +172,10 @@ O instalamos 'nitrogen' con:
  rofi-theme-selector
  ```
  
- * Para slimlock si queremos cambiar la imagen del panel, nos vamos a la ruta '/usr/share/slim/themes/default' y retocamos el archivo 'panel.png'.
+* Para slimlock si queremos cambiar la imagen del panel, nos vamos a la ruta '/usr/share/slim/themes/default' y retocamos el archivo 'panel.png'.
+
+Si no aparece en el login'bspwm' instala con:
+ 
+```sh
+ sudo apt install bspwm sxhkd -y
+ ``` 
