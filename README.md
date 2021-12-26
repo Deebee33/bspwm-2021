@@ -16,6 +16,16 @@ Bspwm:
  make
  
  sudo make install
+ 
+ mkdir -p ~/.config/{bspwm,sxhkd}
+ 
+ cp /usr/local/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
+ 
+ cp /usr/local/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
+ 
+ chmod u+x ~/.config/bspwm/bspwmrc
+
+
 ```
  
 Sxhkd:
@@ -23,7 +33,9 @@ Sxhkd:
 ```sh
  git clone https://github.com/baskerville/sxhkd.git ~/Descargas/sxhkd
  
- cd ~/Descargas/sxhkd/; make
+ cd ~/Descargas/sxhkd/
+ 
+ make
  
  sudo make install
 ```
@@ -127,13 +139,11 @@ Spotify:
 Now: 
 
 ```sh
- rm -rf ~/.config ~/.local
- 
  git clone https://github.com/tony23x/bspwm-2021.git ~/Descargas/bspwm-2021
   
- mv ~/Descargas/bspwm-2021/local ~/.local
+ mv ~/Descargas/bspwm-2021/local/* ~/.local
  
- mv ~/Descargas/bspwm-2021/config ~/.config
+ mv ~/Descargas/bspwm-2021/config/* ~/.config
  
  cp -rf ~/Descargas/bspwm-2021/.Xresources ~
  
