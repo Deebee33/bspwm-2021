@@ -18,14 +18,6 @@ Bspwm:
  sudo make install
  
  mkdir -p ~/.config/{bspwm,sxhkd}
- 
- cp /usr/local/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
- 
- cp /usr/local/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
- 
- chmod u+x ~/.config/bspwm/bspwmrc
-
-
 ```
  
 Sxhkd:
@@ -147,7 +139,7 @@ Now:
  
  cp -rf ~/Descargas/bspwm-2021/.Xresources ~
  
- chmod -R +x ~/.config ~/.local ~/.Xresources
+ chmod -R u+x ~/.config ~/.local ~/.Xresources
 ```
 
 Finally:
