@@ -119,6 +119,8 @@ Firefox:
 Spotify:
 
 ```sh
+ sudo apt install git make rustc -y
+ 
  git clone https://github.com/abba23/spotify-adblock.git ~/Descargas/spotify-adblock 
 
  cd ~/Descargas/spotify-adblock/
